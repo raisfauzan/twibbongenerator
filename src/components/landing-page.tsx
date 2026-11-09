@@ -13,8 +13,8 @@ export default function LandingPageSidebar({ onPhotoSelected }: { onPhotoSelecte
 	return (
 		<section className="h-[24em] p-5 w-full flex flex-col gap-3 justify-between ">
 			<article>
-				<h1 className="lg:text-4xl text-2xl font-semibold mb-5">FancyEvent Twibbon</h1>
-				<p className="text-xl">Join our event and invite those around you to join in the fun!</p>
+				<h1 className="lg:text-4xl text-2xl font-semibold mb-5">Twibbon PMB 2027/2028</h1>
+				<p className="text-xl">Silahkan gunakan foto terbaik kalian dan upload ke sosmed masing-masing!</p>
 			</article>
 			<div className="*:cursor-pointer bg-purple-700 p-5 relative text-white rounded-xl w-fit">
 				<input onChange={handleUpload} accept="image/png, image/jpeg, image/jpg, image/svg, image/webp" type="file" className="absolute inset-0 z-10 opacity-0" />
